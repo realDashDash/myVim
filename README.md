@@ -14,14 +14,31 @@ $ sudo apt-get install vim
 ``` bash
 $ ./basic_install.sh
 ```
-### Use extra version:
+### Use extra version:  
+Install configuration:  
 ``` bash
 $ ./extra_install.sh
+```  
+Open Vim:  
+``` bash
+$ vim
+```  
+Install plug in:  
+``` 
+:PlugInstall
+```
+Check plug-in status:  
+```
+:PlugStatus
 ```
 
 ## Included Plugins
-Used [vim-plug](https://github.com/junegunn/vim-plug) as package control tool.
+Use [vim-plug](https://github.com/junegunn/vim-plug) as package control tool.
 + [NERD Tree](https://github.com/preservim/nerdtree)
 + [Airline](https://github.com/vim-airline/vim-airline)
 + [Airline Theme](https://github.com/vim-airline/vim-airline-themes)
 + [Syntastic](https://github.com/vim-syntastic/syntastic#installpathogen)
+
+***
+## Reference
+[The ultimate Vim configuration (vimrc)](https://github.com/amix/vimrc)
